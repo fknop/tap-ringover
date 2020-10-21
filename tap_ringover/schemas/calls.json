@@ -1,0 +1,189 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cdr_id": {
+      "type": [
+        "integer"
+      ]
+    },
+    "call_id": {
+      "type": [
+        "string"
+      ]
+    },
+    "type": {
+      "type": [
+        "string"
+      ]
+    },
+    "direction": {
+      "type": [
+        "string"
+      ]
+    },
+    "last_state": {
+      "type": [
+        "string"
+      ]
+    },
+    "start_time": {
+      "type": [
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "end_time": {
+      "type": [
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "answered_time": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "contact_number": {
+      "type": [
+        "string"
+      ]
+    },
+    "from_number": {
+      "type": [
+        "string"
+      ]
+    },
+    "to_number": {
+      "type": [
+        "string"
+      ]
+    },
+    "total_duration": {
+      "type": [
+        "integer"
+      ]
+    },
+    "ivr": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ivr_id": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "contact_id": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "firstname": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lastname": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "company": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "contact_name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "social_service": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "user": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "user_id": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "team_id": {
+          "type": [
+            "null",
+            "number"
+          ]
+        },
+        "firstname": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lastname": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "company": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "email": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "contact_name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}
